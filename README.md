@@ -15,3 +15,5 @@ Next, we evaluated the robustness of the model by testing the drop in accuracy o
 ![alt text](https://i.ibb.co/VJG4Rn6/Robustness.png)
 
 As can be observed from the table above, our Geometric invariant network is highly robust to rotation transformations and suffers a drop in test performance of only $2%$ for a $20^{0}$ rotation compared to a $63%$ drop in test accuracy by convolutional network and a $11.3%$ drop for VGG networks.
+
+On the other hand, the geometric invariant models are not invariant to shearing transformations and suffer a large drop in performance for even a small shear. On the other hand, our hierarchical deformable parts model is highly robust to shearing transformations than both, the convolutional networks or the VGG networks.
